@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Salon K1</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: #F4EFE9;
+    color: #1a1a1a;
+}
+
+.hero {
+    height: 75vh;
+    background: url('data:image/jpeg;base64,{}') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.overlay {
+    background: rgba(0,0,0,0.4);
+    padding: 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #C6A87D;
+    color: white;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 40px 20px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+    <div class="overlay">
+        <h1>Salon K1</h1>
+        <p>by Janine Knief</p>
+        <p>Moderne Stylings für Frauen</p>
+        <button>Termin vereinbaren</button>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Leistungen</h2>
+    <div class="services">
+        <div class="card">Damenhaarschnitte</div>
+        <div class="card">Farbe & Strähnen</div>
+        <div class="card">Styling & Pflege</div>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Einblicke</h2>
+    <div class="gallery">
+        <img src="data:image/jpeg;base64,{}">
+        <img src="data:image/jpeg;base64,{}">
+    </div>
+</div>
+
+<footer>
+    <p>Salon K1 by Janine Knief</p>
+</footer>
+
+</body>
+</html>
